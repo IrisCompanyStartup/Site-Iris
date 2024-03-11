@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.footergeral{
+  background-color: #181818;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  height: 250px;
+}@media only screen and (max-width: 1024px){
+  .midias-sobre, .servicos-termos{
+    display: flex;
+  }
+}@media only screen and (max-width: 768px){
+  .midias-sobre, .servicos-termos{
+    display: flex;
+  }
+}@media only screen and (max-width: 820px){
+  .footergeral{
+    height: 315px;
+  }
+}@media only screen and (max-width: 768px){
+  .footergeral{
+    height: 300px;
+  }
+}@media only screen and (max-width: 431px){
+  .footergeral{
+    height: 651px;
+    display: block;
+  }
+}@media only screen and (max-width: 391px){
+  .footergeral{
+    height: 672px;
+    display: block;
+  }
+}@media only screen and (max-width: 360px){
+  .footergeral{
+    height: 540px;
+    display: block;
+  }
+}
+
+.footergeral div h1{
+  color: #E8E8E8;
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+}
+
+.footergeral div a{
+  color: #CCCCCC;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  opacity: 60%;
+}
+
+.espaco{
+  padding: 50px;
+}@media only screen and (max-width: 360px){
+  .espaco{
+    padding: 30px;
+  }
+}
+
+
+

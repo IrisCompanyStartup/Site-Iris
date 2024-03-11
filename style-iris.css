@@ -1,0 +1,122 @@
+header{
+    background: linear-gradient(180deg, #181818 43.51%, rgba(101, 0, 138, 0.767) 140.32%, rgba(102, 0, 138, 0.00) 185.39%);
+    padding: 18px;
+    padding-right: 140px;
+    border-bottom: 1.5px solid #66008A;
+    backdrop-filter: blur(2px);
+    width: 100%;
+}@media only screen and (max-width: 989px){
+    header{
+        padding-right: 20px;
+    }
+}
+
+.iris-brand{
+    display: flex;
+}
+
+.iris-brand a{
+    color: #E8E8E8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}@media only screen and (max-width: 989px){
+    .iris-brand a{
+        font-size: 26px;
+    }
+}@media only screen and (max-width: 415px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 25px;
+    }
+}@media only screen and (max-width: 347px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 24px;
+    }
+}@media only screen and (max-width: 340px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 23px;
+    }
+}@media only screen and (max-width: 333px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 22px;
+    }
+}@media only screen and (max-width: 326px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 21px;
+    }
+}@media only screen and (max-width: 319px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 20px;
+    }
+}@media only screen and (max-width: 280px){
+    .iris-brand a{
+        padding-top: 15px;
+        font-size: 18px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+.iris-brand a:hover{
+    color: rgb(187, 187, 187);
+}
+
+.iris-brand img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+}@media only screen and (max-width: 280px){
+    .iris-brand img{
+        margin-right: 10px;
+    }
+}
+
+
+.nav-link{
+    color: #E8E8E8;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-link:hover{
+    color: rgb(187, 187, 187);
+}
+
+.navbar-toggler{
+    border: none;
+    padding-right: 0px;
+}
+
+.navbar-toggler{
+    padding: 1px;
+}@media only screen and (max-width: 360px){
+    .navbar-toggler{
+        padding-top: 10px;
+    }
+}@media only screen and (max-width: 280px){
+    .navbar-toggler{
+        padding-top: 5px;
+    }
+}
+
+
+#lista-pag{
+    font-size: 30px;
+    color: white;
+}@media only screen and (max-width: 280px){
+    #lista-pag{
+        font-size: 28px;
+    }
+}

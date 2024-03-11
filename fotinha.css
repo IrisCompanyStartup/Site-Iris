@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgturma {
+    background: url(imgturma.png) center/contain no-repeat;
+    display: flex;
+    height: 549px;
+    width: 100%;
+}@media only screen and (max-width:1024px){
+    .imgturma{
+        height: 366px;
+        width: 100%;
+    }
+}@media only screen and (max-width:820px){
+    .imgturma{
+        height: 291px;
+        width: 100%;
+    }
+}@media only screen and (max-width:768px){
+    .imgturma{
+        height: 278px;
+        width: 100%;
+    }
+}@media only screen and (max-width: 431px){
+    .imgturma{
+        height: 156px;
+        width: 100%;
+    }
+}@media only screen and (max-width: 415px){
+    .imgturma{
+        height: 151px;
+        width: 100%;
+    }
+}@media only screen and (max-width: 412px){
+    .imgturma{
+        height: 149px;
+        width: 100%;
+    }
+}@media only screen and (max-width: 391px){
+    .imgturma{
+        height: 142px;
+        width: 100%;
+    }
+}@media only screen and (max-width: 376px){
+    .imgturma{
+        height: 136px;
+        width: 100%;
+    }
+}@media only screen and (max-width: 360px){
+    .imgturma{
+        height: 131px;
+        width: 100%;
+    }
+}

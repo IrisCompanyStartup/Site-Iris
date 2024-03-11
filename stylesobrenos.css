@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .containerrr {
+    background-color: #1E1E1E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .headerrr {
+    margin-bottom: 20px;
+  }
+  
+  .contentrr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 25px;
+  }@media only screen and (max-width: 989px){
+    .contentrr{
+      display: block;
+    }
+  }
+  
+  .left,
+  .right {
+    flex-basis: 45%; /* Ajuste conforme necessário */
+  }@media only screen and (max-width: 412px){
+    .left p, .right p{
+      width: 100%;
+      font-size: 20px;
+    }
+  }@media only screen and (max-width: 360px){
+    .left p, .right p{
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+
+  .left img, .right img{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }@media only screen and (max-width: 600px){
+    .left img, .right img{
+      width: 500px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  img {
+    width: 100%;
+    height: 600px;
+  }@media only screen and (max-width: 989px){
+    img{
+      max-width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }
+
+  .sobre-nos-btn{
+    position: absolute; 
+    bottom: 10px; 
+    z-index: 100;
+    right: 0;
+  }@media only screen and (max-width: 989px){
+    .sobre-nos-btn{
+      position: absolute;
+      bottom: 0px;
+      right: 20px;
+    }
+  }
+
+  
